@@ -3,6 +3,6 @@ import javax.swing.*;
 public class Prueba {
     int num1 = Integer.valueOf(JOptionPane.showInputDialog("Ingrese un entero: "));
     int num2 = Integer.valueOf(JOptionPane.showInputDialog("Ingrese un entero: "));
-    String suma = num1 + num2;
+    int suma = num1 + num2;
 
 }
